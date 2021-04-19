@@ -168,6 +168,7 @@ class ChewieState extends State<Chewie> {
     } else {
       final isLandscapeVideo = videoWidth > videoHeight;
       final isPortraitVideo = videoWidth < videoHeight;
+      print('wj------------------full------');
 
       /// Default behavior
       /// Video w > h means we force landscape
